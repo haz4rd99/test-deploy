@@ -1,7 +1,7 @@
-app_name = "hello_fc"
-app_title = "Hello Fc"
+app_name = "tideshift_minimal"
+app_title = "Tideshift Minimal"
 app_publisher = "Mike"
-app_description = "TEST APP"
+app_description = "Minimal Tideshift test app"
 app_email = "mike@casualty.co.nz"
 app_license = "mit"
 
