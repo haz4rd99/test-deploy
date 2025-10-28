@@ -1,7 +1,7 @@
-app_name = "tideshift_minimal"
-app_title = "Tideshift Minimal"
+app_name = "test_deploy"
+app_title = "Test Deploy"
 app_publisher = "Mike"
-app_description = "Minimal Tideshift test app"
+app_description = "Frappe Cloud deployment test app"
 app_email = "mike@casualty.co.nz"
 app_license = "mit"
 
@@ -15,5 +15,5 @@ skip_assets_build = True
 
 # Installation
 # ------------
-after_install = "tideshift_minimal.install.after_install"
+after_install = "test_deploy.install.after_install"
 

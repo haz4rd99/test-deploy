@@ -4,9 +4,9 @@ include *.json
 include *.md
 include *.py
 include *.txt
-recursive-include tideshift_minimal *.py
-recursive-include tideshift_minimal *.html
-recursive-exclude tideshift_minimal *.pyc
-recursive-exclude tideshift_minimal *.pyo
-recursive-exclude tideshift_minimal __pycache__
-recursive-exclude tideshift_minimal *.egg-info
+recursive-include test_deploy *.py
+recursive-include test_deploy *.html
+recursive-exclude test_deploy *.pyc
+recursive-exclude test_deploy *.pyo
+recursive-exclude test_deploy __pycache__
+recursive-exclude test_deploy *.egg-info
