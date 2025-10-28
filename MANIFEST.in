@@ -1,0 +1,12 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include hello_fc *.py
+recursive-include hello_fc/templates *.html
+recursive-exclude hello_fc *.pyc
+recursive-exclude hello_fc *.pyo
+recursive-exclude hello_fc __pycache__
+recursive-exclude hello_fc *.egg-info
