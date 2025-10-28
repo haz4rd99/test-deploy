@@ -5,7 +5,7 @@ include *.md
 include *.py
 include *.txt
 recursive-include hello_fc *.py
-recursive-include hello_fc/templates *.html
+recursive-include hello_fc *.html
 recursive-exclude hello_fc *.pyc
 recursive-exclude hello_fc *.pyo
 recursive-exclude hello_fc __pycache__

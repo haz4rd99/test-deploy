@@ -199,13 +199,6 @@ app_license = "mit"
 # Skip asset building - no frontend assets
 skip_assets_build = True
 
-# Website Route Rules
-# -------------------
-# Route /hello to the hello page
-website_route_rules = [
-    {"from_route": "/hello", "to_route": "hello"},
-]
-
 # Request Events
 # ----------------
 # before_request = ["hello_fc.utils.before_request"]
