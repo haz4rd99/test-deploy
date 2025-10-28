@@ -199,6 +199,14 @@ app_license = "mit"
 # Skip asset building - no frontend assets
 skip_assets_build = True
 
+# Website Context
+# ---------------
+# Enable website functionality for this app
+website_context = {
+    "favicon": "/assets/hello_fc/favicon.ico",
+    "splash_image": "/assets/hello_fc/splash.png"
+}
+
 # Request Events
 # ----------------
 # before_request = ["hello_fc.utils.before_request"]
